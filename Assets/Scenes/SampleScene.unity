@@ -289,37 +289,54 @@ GameObject:
   - component: {fileID: 1938733482}
   - component: {fileID: 1938733481}
   - component: {fileID: 1938733480}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Piscina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!167 &1938733480
-AudioReverbZone:
+--- !u!114 &1938733480
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1938733479}
   m_Enabled: 1
-  m_MinDistance: 10
-  m_MaxDistance: 15
-  m_ReverbPreset: 1
-  m_Room: -1000
-  m_RoomHF: -100
-  m_DecayTime: 1.49
-  m_DecayHFRatio: 0.83
-  m_Reflections: -2602
-  m_ReflectionsDelay: 0.007
-  m_Reverb: 200
-  m_ReverbDelay: 0.011
-  m_HFReference: 5000
-  m_Diffusion: 100
-  m_Density: 100
-  m_LFReference: 250
-  m_RoomLF: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed318afdffbc89e7b2550586ae3651d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Player
+  onTriggerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1621421228998508332}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1621421228998508332}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!61 &1938733481
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -330,10 +347,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0074288845, y: -0.003442049}
   m_SpriteTilingProperty:
     border: {x: 0.375, y: 0.375, z: 0.375, w: 0.40625}
     pivot: {x: 0.5, y: 0.5}
@@ -344,7 +361,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.75, y: 1.75}
+  m_Size: {x: 6.2642417, y: 2.26689}
   m_EdgeRadius: 0
 --- !u!212 &1938733482
 SpriteRenderer:
@@ -410,7 +427,7 @@ Transform:
   m_Children:
   - {fileID: 1345303437}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1621421228998508331
 PrefabInstance:
@@ -457,7 +474,7 @@ PrefabInstance:
     - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
         type: 3}
@@ -474,6 +491,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8621992112365847546, guid: e39f383d81653ca59ba9e02a93062b0d,
         type: 3}
       propertyPath: m_Name
@@ -481,3 +503,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39f383d81653ca59ba9e02a93062b0d, type: 3}
+--- !u!169 &1621421228998508332 stripped
+AudioLowPassFilter:
+  m_CorrespondingSourceObject: {fileID: 7003982911059676811, guid: e39f383d81653ca59ba9e02a93062b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1621421228998508331}
+  m_PrefabAsset: {fileID: 0}
