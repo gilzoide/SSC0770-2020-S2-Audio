@@ -44,3 +44,6 @@ TagManager:
   - name: Player
     uniqueID: 3732583319
     locked: 0
+  - name: Drone
+    uniqueID: 1452873643
+    locked: 0

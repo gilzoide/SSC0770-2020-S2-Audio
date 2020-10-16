@@ -16,7 +16,9 @@ GameObject:
   - component: {fileID: 7680090899232977902}
   - component: {fileID: 2408159867441494181}
   - component: {fileID: 7003982911059676811}
+  - component: {fileID: 8193026861945131836}
   - component: {fileID: 1874699620210328620}
+  - component: {fileID: 8038674746054777798}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -284,6 +286,19 @@ AudioLowPassFilter:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8193026861945131836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621992112365847546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ee0f1d08d407db6a877115b09bf67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 4672612743333620218}
 --- !u!114 &1874699620210328620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,4 +313,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 8658575136332514907}
   audioSource: {fileID: 2408159867441494181}
+--- !u!114 &8038674746054777798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621992112365847546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9720fa65fcfcd350ca94d1e554fd9efb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   rigidBody: {fileID: 8312588776393425325}
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8193026861945131836}
+        m_MethodName: SetAlpha
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.8
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDrop:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8193026861945131836}
+        m_MethodName: SetAlpha
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
