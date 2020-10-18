@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8658575136332514907}
   - component: {fileID: 7680090899232977902}
   - component: {fileID: 2408159867441494181}
-  - component: {fileID: 7003982911059676811}
   - component: {fileID: 8193026861945131836}
   - component: {fileID: 1874699620210328620}
   - component: {fileID: 8038674746054777798}
@@ -174,7 +173,8 @@ AudioSource:
   m_GameObject: {fileID: 8621992112365847546}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -7480227282124164138, guid: defde2642f7873ddfbf303f5c13630f9,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: e668fe6b601074789bdba007600182a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -252,31 +252,6 @@ AudioSource:
     - serializedVersion: 3
       time: 0
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!169 &7003982911059676811
-AudioLowPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8621992112365847546}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_LowpassResonanceQ: 1
-  lowpassLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.22727273
       inSlope: 0
       outSlope: 0
       tangentMode: 0

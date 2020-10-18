@@ -324,14 +324,15 @@ MonoBehaviour:
   onTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1621421228998508332}
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 3000852409668471192, guid: defde2642f7873ddfbf303f5c13630f9,
+          type: 2}
+        m_MethodName: TransitionTo
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 0.2
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
@@ -349,14 +350,14 @@ MonoBehaviour:
   onTriggerExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1621421228998508332}
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 24500006, guid: defde2642f7873ddfbf303f5c13630f9, type: 2}
+        m_MethodName: TransitionTo
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0
+          m_FloatArgument: 0.2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -530,16 +531,6 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8621992112365847546, guid: e39f383d81653ca59ba9e02a93062b0d,
         type: 3}
       propertyPath: m_Name
@@ -547,12 +538,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e39f383d81653ca59ba9e02a93062b0d, type: 3}
---- !u!169 &1621421228998508332 stripped
-AudioLowPassFilter:
-  m_CorrespondingSourceObject: {fileID: 7003982911059676811, guid: e39f383d81653ca59ba9e02a93062b0d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1621421228998508331}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4440594705360741952
 PrefabInstance:
   m_ObjectHideFlags: 0
