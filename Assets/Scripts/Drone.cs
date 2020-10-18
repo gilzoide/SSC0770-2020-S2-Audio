@@ -5,13 +5,24 @@ using UnityEngine;
 public class Drone : MonoBehaviour
 {
     public float angularVelocity = 10f;
-    public Transform[] helices;
+    public AudioSource[] helices;
 
     public bool rodando = false;
 
     public void SetRodando(bool value)
     {
         rodando = value;
+        foreach (var h in helices)
+        {
+            if (rodando)
+            {
+                h.Play();
+            }
+            else
+            {
+                h.Stop();
+            }
+        }
     }
 
     void Update()
@@ -20,7 +31,7 @@ public class Drone : MonoBehaviour
         {
             foreach (var h in helices)
             {
-                h.Rotate(0, 0, angularVelocity);
+                h.transform.Rotate(0, 0, angularVelocity);
             }
         }
     }
