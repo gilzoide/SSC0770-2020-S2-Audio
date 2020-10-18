@@ -20,4 +20,11 @@ public class SpriteTint : MonoBehaviour
         color.a = alpha;
         spriteRenderer.color = color;
     }
+
+    public void SetRed(float red)
+    {
+        var color = spriteRenderer.color;
+        color.r = red;
+        spriteRenderer.color = color;
+    }
 }

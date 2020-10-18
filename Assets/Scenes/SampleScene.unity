@@ -195,6 +195,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888069291 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8193026861945131836, guid: e39f383d81653ca59ba9e02a93062b0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1621421228998508331}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ee0f1d08d407db6a877115b09bf67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1345303436
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,6 +335,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 888069291}
+        m_MethodName: SetRed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTriggerExit:
     m_PersistentCalls:
       m_Calls:
@@ -334,6 +357,17 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 888069291}
+        m_MethodName: SetRed
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -494,6 +528,16 @@ PrefabInstance:
     - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
         type: 3}
       propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4672612743333620218, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8621992112365847546, guid: e39f383d81653ca59ba9e02a93062b0d,
