@@ -44,7 +44,7 @@ public class SineWave : ScriptableObject
     {
         get => numBits;
         set {
-            numBits = (int)value;
+            numBits = (int) value;
             numBitsChanged.Invoke(numBits);
         }
     }
@@ -56,8 +56,12 @@ public class SineWave : ScriptableObject
 
     public float SineAt(int timeIndex)
     {
+        return SineAt(timeIndex / sampleRate);
+    }
+    public float SineAt(float time)
+    {
         int snap = (int) Mathf.Pow(2, numBits - 2);
-        var valueAtTime = SineAt(frequency, timeIndex / sampleRate) * amplitude;
+        var valueAtTime = SineAt(frequency, time) * amplitude;
         return Mathf.Round(valueAtTime * snap) / snap;
     }
 

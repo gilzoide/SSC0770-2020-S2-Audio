@@ -1328,7 +1328,7 @@ PrefabInstance:
     - target: {fileID: 1612498958071314243, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
       propertyPath: m_Text
-      value: 440 hz
+      value: 110 hz
       objectReference: {fileID: 0}
     - target: {fileID: 3627171747413992851, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
