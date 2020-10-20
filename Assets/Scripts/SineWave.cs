@@ -56,17 +56,13 @@ public class SineWave : ScriptableObject
 
     public float SineAt(int timeIndex)
     {
-        return CreateSine(timeIndex, frequency, amplitude, sampleRate, Mathf.Pow(2, numBits - 2));
+        int snap = (int) Mathf.Pow(2, numBits - 2);
+        var valueAtTime = SineAt(frequency, timeIndex / sampleRate) * amplitude;
+        return Mathf.Round(valueAtTime * snap) / snap;
     }
 
-    public static float CreateSine(int timeIndex, float frequency, float amplitude, float sampleRate)
+    public static float SineAt(float frequency, float time)
     {
-        return Mathf.Sin(2 * Mathf.PI * timeIndex * frequency / sampleRate) * amplitude;
-    }
-
-    public static float CreateSine(int timeIndex, float frequency, float amplitude, float sampleRate, float snap)
-    {
-        var value = CreateSine(timeIndex, frequency, amplitude, sampleRate);
-        return Mathf.Round(value * snap) / snap;
+        return Mathf.Sin(2 * Mathf.PI * frequency * time);
     }
 }

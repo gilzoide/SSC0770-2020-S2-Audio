@@ -10,7 +10,7 @@ public class SineWaveRenderer : MonoBehaviour
     public float lineWidth = 1;
     public LineRenderer lineRenderer;
 
-    private Vector3[] points;
+    private Vector3[] points = new Vector3[48000];
 
     void Awake()
     {
@@ -22,7 +22,7 @@ public class SineWaveRenderer : MonoBehaviour
 
     void Start()
     {
-        FullRebuildWave();
+        RebuildWave();
     }
 
     void OnEnable()
@@ -48,8 +48,13 @@ public class SineWaveRenderer : MonoBehaviour
     {
         RebuildWave();
     }
+    [ContextMenu("Rebuild Wave")]
     public void RebuildWave()
     {
+        samples = (int) (sineWave.sampleRate / 110);
+        lineRenderer.positionCount = samples;
+        lineRenderer.widthMultiplier = lineWidth;
+
         var yFactor = size.y * 0.5f;
         var xFactor = size.x / samples;
         var xOffset = -size.x * 0.5f;
@@ -62,14 +67,5 @@ public class SineWaveRenderer : MonoBehaviour
             );
         }
         lineRenderer.SetPositions(points);
-    }
-
-    [ContextMenu("Rebuild Wave")]
-    void FullRebuildWave()
-    {
-        points = new Vector3[samples];
-        lineRenderer.positionCount = samples;
-        lineRenderer.widthMultiplier = lineWidth;
-        RebuildWave();
     }
 }

@@ -8,20 +8,20 @@ public class SineWaveAudioFilter : MonoBehaviour
     public float waveLengthInSeconds = 1;
 
     int timeIndex = 0;
-   
+
     void OnAudioFilterRead(float[] data, int channels)
     {
         for(int i = 0; i < data.Length; i+= channels)
-        {          
+        {
             data[i] = sineWave.SineAt(timeIndex);
-           
-            if(channels == 2)
+
+            for (int c = 1; c < channels; c++)
             {
-                data[i+1] = data[i];
+                data[i + c] = data[i];
             }
-           
+
             timeIndex++;
-           
+
             //if timeIndex gets too big, reset it to 0
             if(timeIndex >= (sineWave.sampleRate * waveLengthInSeconds))
             {
