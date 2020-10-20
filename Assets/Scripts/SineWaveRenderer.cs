@@ -4,32 +4,12 @@ using UnityEngine;
 
 public class SineWaveRenderer : MonoBehaviour
 {
+    public SineWave sineWave;
     public int samples = 100;
-    public int sampleRate = 44100;
     public Vector2 size = new Vector2(1, 1);
     public float lineWidth = 1;
     public LineRenderer lineRenderer;
 
-    public float Frequency
-    {
-        get => _frequency;
-        set {
-            _frequency = value;
-            RebuildWave();
-        }
-    }
-
-    public float Amplitude
-    {
-        get => _amplitude;
-        set {
-            _amplitude = Mathf.Clamp01(value);
-            RebuildWave();
-        }
-    }
-
-    private float _frequency = 440f;
-    private float _amplitude = 1;
     private Vector3[] points;
 
     void Awake()
@@ -45,7 +25,30 @@ public class SineWaveRenderer : MonoBehaviour
         FullRebuildWave();
     }
 
-    void RebuildWave()
+    void OnEnable()
+    {
+        sineWave.frequencyChanged.AddListener(RebuildWave);
+        sineWave.amplitudeChanged.AddListener(RebuildWave);
+        sineWave.sampleRateChanged.AddListener(RebuildWave);
+        sineWave.numBitsChanged.AddListener(RebuildWave);
+    }
+    void OnDisable()
+    {
+        sineWave.frequencyChanged.RemoveListener(RebuildWave);
+        sineWave.amplitudeChanged.RemoveListener(RebuildWave);
+        sineWave.sampleRateChanged.RemoveListener(RebuildWave);
+        sineWave.numBitsChanged.RemoveListener(RebuildWave);
+    }
+
+    public void RebuildWave(float _)
+    {
+        RebuildWave();
+    }
+    public void RebuildWave(int _)
+    {
+        RebuildWave();
+    }
+    public void RebuildWave()
     {
         var yFactor = size.y * 0.5f;
         var xFactor = size.x / samples;
@@ -54,7 +57,7 @@ public class SineWaveRenderer : MonoBehaviour
         {
             points[i] = new Vector3(
                 i * xFactor + xOffset,
-                Mathf.Sin(2 * Mathf.PI * i * _frequency / sampleRate) * _amplitude * yFactor,
+                sineWave.SineAt(i) * yFactor,
                 transform.position.z
             );
         }

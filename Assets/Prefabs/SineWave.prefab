@@ -437,9 +437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fce8c6aaf75159bafa03d619e1b7914f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 440
-  sampleRate: 44100
-  waveLengthInSeconds: 2
+  sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
+  waveLengthInSeconds: 1
 --- !u!114 &4525371583839958169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,8 +451,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a232e47fc8167392dbc39b054ea143a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  samples: 200
-  sampleRate: 44100
-  size: {x: 6, y: 4}
-  lineWidth: 0.1
+  sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
+  samples: 100
+  size: {x: 8, y: 4}
+  lineWidth: 0.05
   lineRenderer: {fileID: 4525371583839958174}
