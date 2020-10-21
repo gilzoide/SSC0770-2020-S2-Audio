@@ -439,6 +439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
   waveLengthInSeconds: 1
+  audioSource: {fileID: 4525371583839958171}
 --- !u!114 &4525371583839958169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +454,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
   samples: 100
-  size: {x: 8, y: 4}
+  size: {x: 10, y: 4}
   lineWidth: 0.05
   lineRenderer: {fileID: 4525371583839958174}

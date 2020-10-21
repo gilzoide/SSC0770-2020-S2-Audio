@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SineWavePCM
   m_EditorClassIdentifier: 
   sampleRate: 44100
-  frequency: 110
+  frequency: 440
   amplitude: 1
   numBits: 16
   frequencyChanged:

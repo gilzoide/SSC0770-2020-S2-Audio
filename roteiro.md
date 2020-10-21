@@ -6,7 +6,6 @@
   * Representação de múltiplos canais (interleaving)
   * Formatos digitais PCM (WAV, AIFF) e comprimidos sem perda (FLAC) e com perda (OGG, AAC, MP3), event-based (MIDI, MOD, XM)
   * Carregar audio inteiro vs streaming
-  * Audio direto nos falantes (2D): panning
-  * Audio espacial (3D): Listener e Sources, 
+  * Audio direto nos falantes (2D): panning / Audio espacial (3D): Listener e Sources, 
   * Mixers e efeitos
   * Citar sistemas mais complexos de audio, como FMOD e Wwise

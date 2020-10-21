@@ -33,6 +33,7 @@ public class PlayPauseButton : MonoBehaviour
 
     public void Toggle()
     {
+        Debug.Assert(audioSource != null);
         if (IsPlaying)
         {
             Pause();

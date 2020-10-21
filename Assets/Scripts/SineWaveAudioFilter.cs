@@ -9,7 +9,6 @@ public class SineWaveAudioFilter : MonoBehaviour
     public AudioSource audioSource;
     
     private const int sampleRate = 48000;
-    private AudioClip audioClip;
     private int timeIndex = 0;
 
     void Awake()
@@ -18,8 +17,6 @@ public class SineWaveAudioFilter : MonoBehaviour
         {
             audioSource = GetComponent<AudioSource>();
         }
-        audioClip = AudioClip.Create("SineWave", sampleRate, 1, sampleRate, false);
-        audioSource.clip = audioClip;
     }
 
     void OnAudioFilterRead(float[] data, int channels)
@@ -35,12 +32,6 @@ public class SineWaveAudioFilter : MonoBehaviour
             }
 
             timeIndex++;
-
-            //if timeIndex gets too big, reset it to 0
-            if(timeIndex >= (sineWave.sampleRate * waveLengthInSeconds))
-            {
-                timeIndex = 0;
-            }
         }
     }
 }
