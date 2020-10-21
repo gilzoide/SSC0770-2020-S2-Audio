@@ -244,6 +244,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SliderComTextoAmplitude
       objectReference: {fileID: 0}
+    - target: {fileID: 7004830248382359731, guid: 0e1d391616948c52c93bd80aabe15633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7319829451904195621, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -484,6 +489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SliderComTextoNumBits
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004830248382359731, guid: 0e1d391616948c52c93bd80aabe15633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7319829451904195621, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
@@ -826,6 +836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SliderComTextoAmostragem
+      objectReference: {fileID: 0}
+    - target: {fileID: 7004830248382359731, guid: 0e1d391616948c52c93bd80aabe15633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7319829451904195621, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
@@ -1197,7 +1212,7 @@ PrefabInstance:
     - target: {fileID: 698581606996221020, guid: dc4e21f0ad4d76c51b9ff30ec0e79952,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 698581606996221020, guid: dc4e21f0ad4d76c51b9ff30ec0e79952,
         type: 3}
@@ -1374,6 +1389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SliderComTextoFrequencia
       objectReference: {fileID: 0}
+    - target: {fileID: 7004830248382359731, guid: 0e1d391616948c52c93bd80aabe15633,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7319829451904195621, guid: 0e1d391616948c52c93bd80aabe15633,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1507,7 +1527,7 @@ PrefabInstance:
     - target: {fileID: 4525371583839958168, guid: e43df0221589e4fc8a05ae363529d38a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4525371583839958168, guid: e43df0221589e4fc8a05ae363529d38a,
         type: 3}
@@ -7608,6 +7628,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1794274730}
     m_Modifications:
+    - target: {fileID: 5481882875422956932, guid: 8d9826d66d13f2c1e924b72c4a077fd6,
+        type: 3}
+      propertyPath: m_Text
+      value: "Representa\xE7\xE3o digital\n<size=40><i>Pulse Code Modulation</i>
+        (PCM)</size>"
+      objectReference: {fileID: 0}
     - target: {fileID: 5481882875422956934, guid: 8d9826d66d13f2c1e924b72c4a077fd6,
         type: 3}
       propertyPath: m_Name
@@ -7686,7 +7712,7 @@ PrefabInstance:
     - target: {fileID: 5481882875422956935, guid: 8d9826d66d13f2c1e924b72c4a077fd6,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 70
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 5481882875422956935, guid: 8d9826d66d13f2c1e924b72c4a077fd6,
         type: 3}

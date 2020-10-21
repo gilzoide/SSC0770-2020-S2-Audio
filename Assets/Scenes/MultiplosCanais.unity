@@ -293,10 +293,15 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3603742566002739833, guid: d9c94bdd977309909b8bd50ec44075e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: L1
+      objectReference: {fileID: 0}
     - target: {fileID: 3603742567261921192, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
       propertyPath: m_Text
-      value: "Entrela\xE7ados (bem mais comum)"
+      value: "Entrela\xE7ados (quase sempre)"
       objectReference: {fileID: 0}
     - target: {fileID: 3603742567261921193, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
@@ -599,6 +604,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R3
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -728,6 +738,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R2
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -856,6 +871,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sample (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L3
       objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
@@ -1115,6 +1135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R3
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -1244,6 +1269,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L3
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -1372,6 +1402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sample (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L3
       objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
@@ -1872,6 +1907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L2
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -2067,6 +2107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L2
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -2115,6 +2160,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603742566002739833, guid: d9c94bdd977309909b8bd50ec44075e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: R1
       objectReference: {fileID: 0}
     - target: {fileID: 3603742567012982468, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
@@ -2530,6 +2580,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R3
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -2578,6 +2633,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603742566002739833, guid: d9c94bdd977309909b8bd50ec44075e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: L1
       objectReference: {fileID: 0}
     - target: {fileID: 3603742567261921192, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
@@ -2652,7 +2712,7 @@ PrefabInstance:
     - target: {fileID: 3603742567261921193, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 3603742567261921193, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
@@ -3097,6 +3157,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R1
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -3225,6 +3290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sample (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R2
       objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
@@ -3433,6 +3503,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R1
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -3561,6 +3636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sample (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: L2
       objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
@@ -3691,6 +3771,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
+        type: 3}
+      propertyPath: m_TagString
+      value: R2
+      objectReference: {fileID: 0}
     - target: {fileID: 4862474775660245228, guid: 5f2691c50d2df97a5bd6979e9512bc66,
         type: 3}
       propertyPath: m_Text
@@ -3759,6 +3844,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603742566002739833, guid: d9c94bdd977309909b8bd50ec44075e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: L1
       objectReference: {fileID: 0}
     - target: {fileID: 3603742567261921193, guid: d9c94bdd977309909b8bd50ec44075e0,
         type: 3}
