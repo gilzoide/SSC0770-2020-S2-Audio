@@ -9,7 +9,7 @@ public class SineWaveAudioFilter : MonoBehaviour
     public AudioSource audioSource;
     
     private const int sampleRate = 48000;
-    private int timeIndex = 0;
+    private long timeIndex = 0;
 
     void Awake()
     {
