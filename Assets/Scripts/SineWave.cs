@@ -69,4 +69,12 @@ public class SineWave : ScriptableObject
     {
         return Mathf.Sin(2 * Mathf.PI * frequency * time);
     }
+
+    public void CopyValuesFrom(SineWave other)
+    {
+        frequency = other.frequency;
+        amplitude = other.amplitude;
+        sampleRate = other.sampleRate;
+        numBits = other.numBits;
+    }
 }
