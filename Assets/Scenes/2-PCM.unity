@@ -1579,11 +1579,6 @@ PrefabInstance:
       propertyPath: quantizacao
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4525371583839958169, guid: e43df0221589e4fc8a05ae363529d38a,
-        type: 3}
-      propertyPath: samples
-      value: 400
-      objectReference: {fileID: 0}
     - target: {fileID: 4525371583839958174, guid: e43df0221589e4fc8a05ae363529d38a,
         type: 3}
       propertyPath: m_Positions.Array.size

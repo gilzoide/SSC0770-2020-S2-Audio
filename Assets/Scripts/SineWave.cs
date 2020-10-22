@@ -8,11 +8,12 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "SineWave", menuName = "ScriptableObjects/SineWave")]
 public class SineWave : ScriptableObject
 {
-    public float sampleRate;
-    [Range(1,20000)]
-    public float frequency;
+    [Range(1000, 48000)]
+    public float sampleRate = 44100;
+    [Range(1, 1760)]
+    public float frequency = 440;
     [Range(0f, 1f)]
-    public float amplitude;
+    public float amplitude = 1;
     [Range(2, 32)]
     public int numBits = 16;
 
