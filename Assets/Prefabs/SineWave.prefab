@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4525371583839958174}
   - component: {fileID: 4525371583839958170}
   - component: {fileID: 4525371583839958169}
-  - component: {fileID: 5030203922899442206}
   m_Layer: 0
   m_Name: SineWave
   m_TagString: Untagged
@@ -458,17 +457,3 @@ MonoBehaviour:
   size: {x: 10, y: 4}
   lineWidth: 0.05
   lineRenderer: {fileID: 4525371583839958174}
---- !u!114 &5030203922899442206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4525371583839958165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f399d16adf7b21990b80b31f2ef526cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSineWave: {fileID: 11400000, guid: f563d8d3df8f8630488190ced95906da, type: 2}
-  sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
