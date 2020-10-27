@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 1-AudioOnda
   m_EditorClassIdentifier: 
   scene: {fileID: 102900000, guid: fdefda7f8f2964858b895a3f17721b63, type: 3}
-  description: Audio Onda
+  description: Ondas Sonoras
