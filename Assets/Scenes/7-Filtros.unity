@@ -548,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 3683006408199608880, guid: 05fdd6e9be35e97a0a83897bc5f006b1,
         type: 3}
       propertyPath: m_Text
-      value: "Reverbera\xE7ao\n<size=22>(<i>Reverb</i>)</size>"
+      value: "Reverbera\xE7\xE3o\n<size=22>(<i>Reverb</i>)</size>"
       objectReference: {fileID: 0}
     - target: {fileID: 5866883599292016509, guid: 05fdd6e9be35e97a0a83897bc5f006b1,
         type: 3}
@@ -798,7 +798,7 @@ PrefabInstance:
     - target: {fileID: 3683006408199608880, guid: 05fdd6e9be35e97a0a83897bc5f006b1,
         type: 3}
       propertyPath: m_Text
-      value: "Distor\xE7ao\n<size=22>(<i>Distortion</i>)</size>"
+      value: "Distor\xE7\xE3o\n<size=22>(<i>Distortion</i>)</size>"
       objectReference: {fileID: 0}
     - target: {fileID: 5866883599292016509, guid: 05fdd6e9be35e97a0a83897bc5f006b1,
         type: 3}
@@ -1868,7 +1868,7 @@ PrefabInstance:
     - target: {fileID: 5481882875422956932, guid: 8d9826d66d13f2c1e924b72c4a077fd6,
         type: 3}
       propertyPath: m_Text
-      value: 'Efeitos
+      value: 'Filtros
 
         <size=40><i>Digital signal processing</i> (DSP)</size>'
       objectReference: {fileID: 0}

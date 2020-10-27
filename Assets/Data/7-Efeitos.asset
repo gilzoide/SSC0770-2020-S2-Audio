@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: 7-Efeitos
   m_EditorClassIdentifier: 
   scene: {fileID: 102900000, guid: 5e22ff10e92c20fdaac7a6fd52b1c670, type: 3}
-  description: Efeitos (DSP)
+  description: Filtros (DSP)
