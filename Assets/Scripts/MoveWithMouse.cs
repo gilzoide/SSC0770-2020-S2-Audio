@@ -9,6 +9,8 @@ public class MoveWithMouse : MonoBehaviour
     public UnityEvent onPickUp;
     public UnityEvent onDrop;
 
+    public bool dontActuallyMove = false;
+
     private Vector3 screenPoint;
     private Vector3 offset;
     private Vector2 finalPoint;
@@ -25,7 +27,10 @@ public class MoveWithMouse : MonoBehaviour
 
     void FixedUpdate()
     {
-        rigidBody.MovePosition(finalPoint);
+        if (!dontActuallyMove)
+        {
+            rigidBody.MovePosition(finalPoint);
+        }
     }
 
     void OnMouseDown()

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5061368487002978437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2408159867441494181, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -467588764696067192, guid: d5ea4827cd229cd2f8a1c5c5fff1e765,
+        type: 2}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3910642640331359091, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8621992112365847546, guid: e39f383d81653ca59ba9e02a93062b0d,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerSoBerra
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8038674746054777798, guid: e39f383d81653ca59ba9e02a93062b0d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e39f383d81653ca59ba9e02a93062b0d, type: 3}

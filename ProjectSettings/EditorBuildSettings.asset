@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6-AudioEspacial.unity
     guid: 74ceb7584a4c5a52abf510a38ea2687b
+  - enabled: 1
+    path: Assets/Scenes/7-Filtros.unity
+    guid: 5e22ff10e92c20fdaac7a6fd52b1c670
+  - enabled: 1
+    path: Assets/Scenes/8-Mixer.unity
+    guid: ccf4d02d46f025d21836b2a4bddea755
   m_configObjects: {}
