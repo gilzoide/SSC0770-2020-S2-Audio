@@ -935,7 +935,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469019459}
   m_CullTransparentMesh: 0
---- !u!1001 &1539237896
+--- !u!1001 &1496980748
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1063,6 +1063,31 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3640569947221520319, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069663375178637002, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069663375178637002, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069663375178637002, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069663375178637002, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4069663375178637002, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
@@ -1229,11 +1254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1f3885c3f5a80ec5b30c6d17f6616e3, type: 3}
---- !u!224 &1539237897 stripped
+--- !u!224 &1496980749 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5672373772430658704, guid: a1f3885c3f5a80ec5b30c6d17f6616e3,
     type: 3}
-  m_PrefabInstance: {fileID: 1539237896}
+  m_PrefabInstance: {fileID: 1496980748}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1554625916
 GameObject:
@@ -1693,7 +1718,7 @@ RectTransform:
   - {fileID: 1655616497}
   - {fileID: 1099194425}
   - {fileID: 1762241910}
-  - {fileID: 1539237897}
+  - {fileID: 1496980749}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
