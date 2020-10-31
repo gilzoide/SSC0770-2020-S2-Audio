@@ -25,6 +25,6 @@ public class TopicoButton : MonoBehaviour
 
     public void GoToTopico()
     {
-        SceneManager.LoadScene(topico.scene.name);
+        SceneManager.LoadScene(topico.indexCena);
     }
 }

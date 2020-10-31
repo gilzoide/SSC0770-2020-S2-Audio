@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b1705d7bcb1433acb1279e6d9147726, type: 3}
   m_Name: 7-Efeitos
   m_EditorClassIdentifier: 
-  scene: {fileID: 102900000, guid: 5e22ff10e92c20fdaac7a6fd52b1c670, type: 3}
+  indexCena: 6
   description: Filtros (DSP)

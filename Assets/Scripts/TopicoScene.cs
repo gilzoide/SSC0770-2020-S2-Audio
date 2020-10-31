@@ -5,12 +5,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "TopicoScene", menuName = "ScriptableObjects/TopicoScene")]
 public class TopicoScene : ScriptableObject
 {
-    public Object scene;
+    public int indexCena;
     public string description;
-}
-
-[CreateAssetMenu(fileName = "TableOfContents", menuName = "ScriptableObjects/TableOfContents")]
-public class TableOfContents : ScriptableObject
-{
-    public TopicoScene[] topicos;
 }
