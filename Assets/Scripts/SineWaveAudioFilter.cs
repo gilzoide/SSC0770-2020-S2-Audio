@@ -6,18 +6,9 @@ public class SineWaveAudioFilter : MonoBehaviour
 {
     public SineWave sineWave;
     public float waveLengthInSeconds = 1;
-    public AudioSource audioSource;
     
     private const int sampleRate = 48000;
     private long timeIndex = 0;
-
-    void Awake()
-    {
-        if (!audioSource)
-        {
-            audioSource = GetComponent<AudioSource>();
-        }
-    }
 
     void OnAudioFilterRead(float[] data, int channels)
     {
