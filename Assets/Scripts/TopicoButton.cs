@@ -20,7 +20,10 @@ public class TopicoButton : MonoBehaviour
     [ContextMenu("Setup")]
     void Start()
     {
-        title.text = string.Format("{0} - {1}", transform.GetSiblingIndex() + 1, topico.description);
+        string format = SceneManager.GetActiveScene().buildIndex == topico.indexCena
+            ? "<b>{0} - {1}</b>"
+            : "{0} - {1}";
+        title.text = string.Format(format, transform.GetSiblingIndex() + 1, topico.description);
     }
 
     public void GoToTopico()
