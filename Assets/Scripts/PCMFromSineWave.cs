@@ -10,7 +10,7 @@ public class PCMFromSineWave : MonoBehaviour
     public string format = "{0:F2}";
     public bool generateAtStart = true;
 
-    void Start()
+    void OnEnable()
     {
         if (generateAtStart)
         {
@@ -23,7 +23,7 @@ public class PCMFromSineWave : MonoBehaviour
     {
         foreach (Transform childTransform in samplesHolder)
         {
-            DestroyImmediate(childTransform.gameObject);
+            Destroy(childTransform.gameObject);
         }
         for (int i = 0; i < numSamples; i++)
         {

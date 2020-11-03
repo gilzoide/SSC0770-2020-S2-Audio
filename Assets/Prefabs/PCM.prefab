@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46f06a5313c804e7856f0f85892b78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numSamples: 10
+  numSamples: 13
   samplePrefab: {fileID: 4862474774523782225, guid: 5f2691c50d2df97a5bd6979e9512bc66,
     type: 3}
   sineWave: {fileID: 11400000, guid: 714f15d5ce17682709c653642dccf3ea, type: 2}
