@@ -8,6 +8,21 @@ TextureImporter:
   - first:
       213: -3370560971875343755
     second: pool_cookout_Escada
+  - first:
+      213: 700240174285245871
+    second: pool_mesa
+  - first:
+      213: -7323993815273676137
+    second: pool_prato_3
+  - first:
+      213: 1194500095991756000
+    second: pool_prato_1
+  - first:
+      213: -7131996452905842812
+    second: pool_prato_2
+  - first:
+      213: 7194547989642319885
+    second: pool_tigela
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -37,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -130,6 +145,111 @@ TextureImporter:
       bones: []
       spriteID: 572239177ac5931d0800000000000000
       internalID: -3370560971875343755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool_mesa
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadcabd7ab0c7b900800000000000000
+      internalID: 700240174285245871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool_prato_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 106
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792647fdd62fb5a90800000000000000
+      internalID: -7323993815273676137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool_prato_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 43
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e432c13287b39010800000000000000
+      internalID: 1194500095991756000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool_prato_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 11
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4878335530f060d90800000000000000
+      internalID: -7131996452905842812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pool_tigela
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08912a374b28d360800000000000000
+      internalID: 7194547989642319885
       vertices: []
       indices: 
       edges: []
