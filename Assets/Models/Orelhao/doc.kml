@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+  <Folder>
+    <name>Orelhao Itu</name>
+    <description>Created with &lt;a href="http://sketchup.google.com"&gt;Google SketchUp&lt;/a&gt;</description>
+    <visibility>1</visibility>
+    <LookAt>
+      <heading>242.8790862485</heading>
+      <tilt>82.451427294</tilt>
+      <latitude>-23.26378408832</latitude>
+      <longitude>-47.29973737495</longitude>
+      <range>0.9562336506686</range>
+      <altitude>5.409980296695</altitude>
+    </LookAt>
+    <Folder>
+      <name>Tour</name>
+      <Placemark>
+        <name>Scene 1</name>
+        <visibility>1</visibility>
+        <LookAt>
+          <heading>242.8790862485</heading>
+          <tilt>82.451427294</tilt>
+          <latitude>-23.26378408832</latitude>
+          <longitude>-47.29973737495</longitude>
+          <range>0.9562336506686</range>
+          <altitude>5.409980296695</altitude>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Model</name>
+      <description></description>
+      <Style id="default"/>
+      <Model>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+          <latitude>-23.2632433859</latitude>
+          <longitude>-47.30009641627</longitude>
+          <altitude>0</altitude>
+        </Location>
+        <Orientation>
+          <heading>0.9085490816196</heading>
+          <tilt>0</tilt>
+          <roll>0</roll>
+        </Orientation>
+        <Scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </Scale>
+        <Link>
+          <href>models/untitled.dae</href>
+        </Link>
+      </Model>
+    </Placemark>
+  </Folder>
+
+</kml>

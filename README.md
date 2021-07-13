@@ -11,3 +11,5 @@ Projeto de exemplo de Audio e efeitos usando [Unity](https://unity.com/)
 ## Créditos de assets
 - **Pool Cookout** art by bleutailfly - https://opengameart.org/content/pool-cookout
 - **Drone Flying** sound by Sheyvan - https://freesound.org/people/Sheyvan/sounds/470127/
+- **Crown/Lasonic Blaster** model by Silverstone78 - https://poly.pizza/m/ayP8_jr4hz7
+- **Orelhão de Itu** model by Ricardo Alcantara - https://3dwarehouse.sketchup.com/model/76f869aa41abbb7948b9985e27837775/O-Orelh%C3%A3o-de-Itu-SP-Brasil
