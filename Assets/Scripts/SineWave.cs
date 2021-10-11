@@ -1,9 +1,4 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Events;
-
-[Serializable] public class IntEvent : UnityEvent<int> {}
-[Serializable] public class FloatEvent : UnityEvent<float> {}
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "SineWave", menuName = "ScriptableObjects/SineWave")]
 public class SineWave : ScriptableObject
