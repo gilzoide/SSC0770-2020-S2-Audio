@@ -12,6 +12,14 @@ public class TopicoSelectorButton : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            Toggle();
+        }
+    }
+
     public void Toggle()
     {
         animator.SetTrigger("Toggle");
