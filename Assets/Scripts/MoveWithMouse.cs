@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 public class MoveWithMouse : MonoBehaviour
@@ -8,8 +6,6 @@ public class MoveWithMouse : MonoBehaviour
     public Rigidbody2D rigidBody;
     public UnityEvent onPickUp;
     public UnityEvent onDrop;
-
-    public bool dontActuallyMove = false;
 
     private Vector3 screenPoint;
     private Vector3 offset;
@@ -27,10 +23,7 @@ public class MoveWithMouse : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!dontActuallyMove)
-        {
-            rigidBody.MovePosition(finalPoint);
-        }
+        rigidBody.MovePosition(finalPoint);
     }
 
     void OnMouseDown()
