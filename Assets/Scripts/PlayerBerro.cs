@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerBerro : MonoBehaviour
 {
     public Animator animator;
     public AudioSource audioSource;
