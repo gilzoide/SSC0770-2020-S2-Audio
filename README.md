@@ -8,6 +8,10 @@ Projeto de exemplo de Audio e efeitos usando [Unity](https://unity.com/)
 - "Invisible" Sound Design in Breath of the Wild (https://www.youtube.com/watch?v=Vgev9Gzybk8)
 
 
+## Fontes de assets
+- https://itch.io/t/11676/the-big-list-of-free-sounds
+
+
 ## Créditos de assets
 - **Pool Cookout** art by bleutailfly - https://opengameart.org/content/pool-cookout
 - **Drone Flying** sound by Sheyvan - https://freesound.org/people/Sheyvan/sounds/470127/
