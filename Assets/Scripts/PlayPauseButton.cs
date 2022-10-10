@@ -17,6 +17,14 @@ public class PlayPauseButton : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Toggle();
+        }
+    }
+
     public void Play()
     {
         audioSource?.Play();
