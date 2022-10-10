@@ -19,7 +19,7 @@ public class PlayerBerro : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) || Input.GetKeyDown(KeyCode.B))
         {
             animator.SetTrigger("Berra");
         }
