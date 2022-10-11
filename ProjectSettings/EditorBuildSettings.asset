@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/0-Capa.unity
+    guid: 43ae462c5710c4525a893a4970f5d7a5
+  - enabled: 1
     path: Assets/Scenes/1-AudioOnda.unity
     guid: fdefda7f8f2964858b895a3f17721b63
   - enabled: 1

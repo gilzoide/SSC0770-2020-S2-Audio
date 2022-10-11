@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b1705d7bcb1433acb1279e6d9147726, type: 3}
-  m_Name: 5-Formatos
+  m_Name: 0-Capa
   m_EditorClassIdentifier: 
-  indexCena: 5
-  description: Formatos de arquivo
+  indexCena: 0
+  description: Capa
