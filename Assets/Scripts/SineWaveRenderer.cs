@@ -8,7 +8,7 @@ public class SineWaveRenderer : MonoBehaviour
     public float lineWidth = 1;
     public LineRenderer lineRenderer;
 
-    private Vector3[] points = new Vector3[48000];
+    private Vector3[] points = new Vector3[SineWave.MaxSampleRate];
 
     void Awake()
     {

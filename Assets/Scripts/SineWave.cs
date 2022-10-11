@@ -3,7 +3,9 @@
 [CreateAssetMenu(fileName = "SineWave", menuName = "ScriptableObjects/SineWave")]
 public class SineWave : ScriptableObject
 {
-    [Range(1000, 48000)]
+    public const int MaxSampleRate = 48000;
+
+    [Range(1000, MaxSampleRate)]
     public float sampleRate = 44100;
     [Range(1, 1760)]
     public float frequency = 440;
