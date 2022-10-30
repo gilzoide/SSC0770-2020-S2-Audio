@@ -25,6 +25,14 @@ public class Drone : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            SetRodando(false);
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            SetRodando(true);
+        }
         if (rodando)
         {
             foreach (var h in helices)

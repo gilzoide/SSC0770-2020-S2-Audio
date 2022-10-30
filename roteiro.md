@@ -5,6 +5,11 @@
 - Abrir editor de código, caso precise mostrar alguma coisa
 - Rotear som da Unity pro mic
 
+## Atalhos (pra lembrar)
+- "Espaço": play/pause de botões com música
+- "D": segure para som de drone
+- "B" ou "Mouse direito": berro
+
 ## Teoria
 0. Cumprimentos, apresentação breve minha
   - Lembrar que isso tudo está no GitHub

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b1705d7bcb1433acb1279e6d9147726, type: 3}
   m_Name: 3-PCMEmDisco
   m_EditorClassIdentifier: 
-  indexCena: 2
+  indexCena: 3
   description: PCM em disco
